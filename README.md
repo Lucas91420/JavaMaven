@@ -1,6 +1,16 @@
 #  Documentation de l’environnement de développement JavaFX avec Maven
 
-Ce projet met en place un environnement de développement **Node.js / React** conforme à des bonnes pratiques professionnelles :
+Ce projet met en place un environnement de développement **Node.js / React** conforme à des bonnes pratiques professionnelles 
+
+
+mvn clean	Supprime les fichiers générés
+mvn install	Installe le projet localement
+mvn exec:java	Exécute l’application
+mvn test	Exécute les tests unitaires
+mvn jacoco:report	Génère le rapport de couverture des tests
+mvn checkstyle:check	Vérifie la conformité du code
+mvn package	Génère un JAR exécutable
+java -jar target/EnvJava-1.0-SNAPSHOT-shaded.jar	Exécute l’application depuis un JAR
 
 ## 1. Prérequis
 
