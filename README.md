@@ -3,10 +3,10 @@
 Ce projet met en place un environnement de développement **Node.js / React** conforme à des bonnes pratiques professionnelles 
 
 
-mvn clean	Supprime les fichiers générés
-mvn install	Installe le projet localement
-mvn exec:java	Exécute l’application
-mvn test	Exécute les tests unitaires
+- mvn clean	Supprime les fichiers générés
+- mvn install	Installe le projet localement
+- mvn exec:java	Exécute l’application
+- mvn test	Exécute les tests unitaires
 mvn jacoco:report	Génère le rapport de couverture des tests
 mvn checkstyle:check	Vérifie la conformité du code
 mvn package	Génère un JAR exécutable
