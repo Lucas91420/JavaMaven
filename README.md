@@ -7,10 +7,10 @@ Ce projet met en place un environnement de développement **Node.js / React** co
 - mvn install	Installe le projet localement
 - mvn exec:java	Exécute l’application
 - mvn test	Exécute les tests unitaires
-mvn jacoco:report	Génère le rapport de couverture des tests
-mvn checkstyle:check	Vérifie la conformité du code
-mvn package	Génère un JAR exécutable
-java -jar target/EnvJava-1.0-SNAPSHOT-shaded.jar	Exécute l’application depuis un JAR
+- mvn jacoco:report	Génère le rapport de couverture des tests
+- mvn checkstyle:check	Vérifie la conformité du code
+- mvn package	Génère un JAR exécutable
+- java -jar target/EnvJava-1.0-SNAPSHOT-shaded.jar	Exécute l’application depuis un JAR
 
 ## 1. Prérequis
 
