@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="Checker">
+    <property name="severity" value="warning"/>
+
+    <module name="TreeWalker">
+        <module name="ImportOrder">
+            <property name="groups" value="java, javax, org, com"/>
+        </module>
+        <module name="GoogleChecks"/>
+    </module>
+</module>
