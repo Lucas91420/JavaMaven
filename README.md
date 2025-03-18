@@ -1,4 +1,4 @@
-# Mon Projet Node.js / React
+#  Documentation de l’environnement de développement JavaFX avec Maven
 
 Ce projet met en place un environnement de développement **Node.js / React** conforme à des bonnes pratiques professionnelles :
 
